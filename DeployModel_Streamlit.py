@@ -80,9 +80,5 @@ def main():
         
     # Display a success message    
     st.success(Class_Prediction)
-    
-    
-if __name__ == '__main__':
-    main()
 
 
