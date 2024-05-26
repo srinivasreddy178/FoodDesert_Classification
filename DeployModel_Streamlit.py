@@ -81,4 +81,4 @@ def main():
     # Display a success message    
     st.success(Class_Prediction)
 
-
+main()
