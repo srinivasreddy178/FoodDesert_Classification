@@ -71,7 +71,7 @@ Class_Prediction = ''  # empty string
 # creating a button for Prediction   
 #st.button(label="Food Desert Prediction Result", style="background-color: #DD3300; color:#eeffee; border-radius: 0.75rem;")
 if st.button('Food Desert Prediction Result'):
-    Class_Prediction = fooddesert_prediction([Disadvantage, Medfamilyincome,SNAP,PovertyRate,TractKids,TractSeniors,TractWhite,TractBlack,TractAsian,TractNHOPI,TractAIAN,TractOMultir,TractHispanic,TractHUNV,TractSNAP])
+    Class_Prediction = fooddesert_prediction([Medfamilyincome,SNAP,PovertyRate,TractKids,TractSeniors,TractWhite,TractBlack,TractAsian,TractNHOPI,TractAIAN,TractOMultir,TractHUNV,TractSNAP])
         
     # Display a success message    
     st.success(Class_Prediction)
