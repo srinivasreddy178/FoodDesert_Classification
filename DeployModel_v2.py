@@ -47,7 +47,7 @@ def fooddesert_prediction(input_data):
 
 # Titel of the App
     
-st.title('Brooklyn Food Desert Area Prediction App')
+st.title('Brooklyn Food Desert Area Prediction App - v0')
     
 # getting the input data from user    
     
